@@ -1146,18 +1146,19 @@ html{
    /* about us continuation */
 
    .buy-sell-req{
-       background: white;
-       display: flex;
-       font-family: Arial, Helvetica, sans-serif;
-       font-size: 13px;
-       margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 100%;
    }
 
    .buy-sell-req h4{
        text-align: center;
        font-size: 30px;
        font-weight: 600;
-       margin-bottom: 30px;
+       margin-bottom: 25px;
        font-size: 30px;
        font-weight: 900;
    }
@@ -1169,28 +1170,25 @@ html{
     margin-bottom: 40px;
    }
 
-   .buy-sell-req .buy-left{
+   .buy-sell-req .sed{
       background-color: white;
       padding: 0 20px 0 20px;
+      width: 30%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    }
 
-   .buy-sell-req .req-center{
-      background-color: #000000;
-      padding: 0 20px 0 20px;
-      color: white;
-   }
-
-   .buy-sell-req .sell-right{
-      background-color: white;
-      padding: 0 20px 0 20px;
-   }
 
    @media (max-width:760px){
     .buy-sell-req{
        display: block;
    }
+
+   .buy-sell-req .sed{
+       width: 100%;
+   }
+
    .buy-sell-req .buy-left{
-       padding: 0 16px 0 16px;
+       padding: 0 25px 0 25px;
        align-content: center;
        text-align: center;
    }

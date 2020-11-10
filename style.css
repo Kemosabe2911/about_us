@@ -1171,13 +1171,36 @@ html{
 
    .buy-sell-req .buy-left{
       background-color: white;
+      padding: 0 20px 0 20px;
    }
 
    .buy-sell-req .req-center{
       background-color: #000000;
+      padding: 0 20px 0 20px;
       color: white;
    }
 
    .buy-sell-req .sell-right{
       background-color: white;
+      padding: 0 20px 0 20px;
    }
+
+   @media (max-width:760px){
+    .buy-sell-req{
+       display: block;
+   }
+   .buy-sell-req .buy-left{
+       padding: 0 16px 0 16px;
+       align-content: center;
+       text-align: center;
+   }
+
+   
+   .buy-sell-req .req-center{
+       padding: 0 16px 0 16px;
+   }
+
+   .buy-sell-req .sell-right{
+       padding: 0 16px 0 16px;
+   }
+}
